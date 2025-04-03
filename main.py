@@ -8,7 +8,7 @@ from io import BytesIO
 import pandas as pd
 
 # --- Configure your API key securely ---
-API_KEY = os.getenv("GOOGLE_API_KEY", "AIzaSyBHuqIqb_udt5qKlP0fPCwqMu2JZ4vQVV4")
+API_KEY = os.getenv("GOOGLE_API_KEY", "api_key")
 client = genai.Client(api_key=API_KEY)
 
 # --- Analytics Setup ---
